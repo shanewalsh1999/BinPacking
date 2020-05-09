@@ -5,6 +5,8 @@ using namespace std;
 
 // This file is a work in progress in looking to find a Brute Force algorithm.
 
+// printVector : vector<vector<T>>
+// Prints a 2-d vector.
 template<class T>
 void printVector(vector<vector<T>> const &mat) {
     cout << "{\n";
@@ -19,13 +21,13 @@ void printVector(vector<vector<T>> const &mat) {
 }
 
 int main() { 
-    int numberOfItems, numberOfBins, weight;
+    int numberOfItems, k, weight;
 
     cout << "Number of items: ";
     cin >> numberOfItems;
 
-    cout << "Number of bins: ";
-    cin >> numberOfBins;
+    cout << "Capacity of each bin: ";
+    cin >> k;
 
     vector<int> items;
     vector<vector<int>> bins;
@@ -40,15 +42,12 @@ int main() {
     }
     
     // Populate vector of bins with empty bins
-    for (int i = 0; i < numberOfBins; i++) 
+    for (int i = 0; i < numberOfItems; i++) 
         bins.push_back(vector<int>());
-
-    bins[0].push_back(0);
-    bins[1].push_back(1);
-    bins[1].push_back(1);
-
-    printVector(bins);
 
     return 0;
 }
+
+// bruteForce : vector of items, vector of empty bins, int k  -> int solution
+// Returns minimum number of bins with capacity k needed to fit all items
 

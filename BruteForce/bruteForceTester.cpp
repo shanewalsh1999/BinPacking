@@ -69,7 +69,7 @@ int recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& cu
     //Check time constraint
     duration<double> runtime = duration_cast<duration<double>>(high_resolution_clock::now() - startTime);
 
-    if (runtime.count() >= (timeLimit*60))
+    if (runtime.count() >= (timeLimit*10))
     {
         return 1;
     }
@@ -97,7 +97,8 @@ int recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& cu
         int sumOfBinContents = accumulate(bin.begin(),bin.end(),0);
         if ((sumOfBinContents + currentItem) <= in.capacity) {
             bin.push_back(currentItem);
-            recurse(in, currentPosition + 1, bins, currentBestSolution);
+            if (recurse(in, currentPosition + 1, bins, currentBestSolution) != 0)
+                return 1;
             bin.pop_back();
         }
     }
@@ -177,7 +178,6 @@ int main() {
             for (int k = 0; k < numOfOccurances; k++)
                 dummy.items.push_back(weight);
         }
-        
         // Push dummy instance to vector of instances
         instances.push_back(dummy);
     }
@@ -185,8 +185,7 @@ int main() {
     ////////////////
     // TEST STUFF //
     ////////////////
-    int testSolution;
-    int timedOut;
+    int testSolution, timedOut, totalInstances = 0;
     startTime = high_resolution_clock::now();
     for (int i = 0; i < numTestInstances; i++)
     {
@@ -194,11 +193,13 @@ int main() {
         testSolution = bruteForce(instances[i], timedOut);
         if (timedOut == 1)
         {
-            cout << "Benchmark reached time limit of " << timeLimit << " minutes." << endl;
+            cout << endl << "Benchmark reached time limit of " << timeLimit << " minutes." << endl;
             break;
         }
+        totalInstances++;
         cout << endl << "Best solution found for instance " << i << " : " << testSolution  << endl;
     }
+    cout << "Found an optimal solution for " << totalInstances << " out of 100 instances." << endl;
 
     // Print instances vector
     //cout << "Instances vector: " << endl;

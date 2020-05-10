@@ -22,7 +22,7 @@ struct instance {
 // Prints a 2-d vector.
 template<class T>
 void printVector(vector<vector<T>> const &mat) {
-    cout << "{ ";
+    cout << "{";
     for (vector<T> row: mat) {
         cout << "{ ";
         for (T val: row) {
@@ -39,7 +39,7 @@ void printInstancesVector(vector<instance> instances) {
     for (int i = 0; i < numTestInstances; i++) {
         cout << "Instance name: " << instances[i].name << endl;
         cout << "Capacity: " << instances[i].capacity << endl;
-        cout << "Items: <";
+        cout << "Items: < ";
             for(auto it = begin(instances[i].items); it != end(instances[i].items); ++it) {
             std::cout << *it << " ";
             }
@@ -64,9 +64,12 @@ void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& c
     if (currentPosition >= in.items.size()) { 
         int filledBins = getFilledBinsCount(bins);
 
-        // TEST STUFF
+        ////////////////
+        // TEST STUFF //
+        ////////////////
         cout << "Solution found! " << filledBins << " bins filled." << endl;
         printVector(bins);
+        ////////////////
 
         // If current solution is best found so far, save it
         if (filledBins < currentBestSolution) {
@@ -76,11 +79,9 @@ void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& c
     }
     // Iterate over bins
     int currentItem = in.items[currentPosition];
-
     for (auto &bin : bins) {
         int sumOfBinContents = accumulate(bin.begin(),bin.end(),0);
         if ((sumOfBinContents + currentItem) <= in.capacity) {
-
             bin.push_back(currentItem);
             recurse(in, currentPosition + 1, bins, currentBestSolution);
             bin.pop_back();
@@ -104,8 +105,6 @@ int bruteForce(instance in) {
     for (int i = 0; i < numBins; i++) 
         bins.push_back(vector<int>());    
 
-
-
     // Call recurse function on instance
     recurse(in, 0, bins, currentBestSolution);
 
@@ -117,7 +116,7 @@ int main() {
     // Initialize input stream
     ifstream inf;
 
-    // Vector of 100 test instances
+    // Vector of test instances
     vector<instance> instances;
 
     // Open input file
@@ -168,12 +167,17 @@ int main() {
         instances.push_back(dummy);
     }
 
-    // TEST STUFF
+    ////////////////
+    // TEST STUFF //
+    ////////////////
     int testSolution = bruteForce(instances[0]);
-    cout << "Solution for instance 0: " << testSolution << endl;
+    cout << endl << "Solution for instance 0: " << testSolution << endl << endl;
 
     // Print instances vector
+    cout << "Instances vector: " << endl;
     printInstancesVector(instances);
+    ////////////////
+
 
     // Close input file
     inf.close();

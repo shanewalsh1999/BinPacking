@@ -3,12 +3,18 @@
 #include <string>
 #include <fstream>
 #include <numeric>
+#include <ctime>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
-// Work in progress. Still needs to be add function time limit. 
+// Work in progress. 
 
 #define numTestInstances 3
+#define timeLimit 1
+
+high_resolution_clock::time_point startTime;
 
 // Structure with data of BPP test instance
 struct instance {
@@ -59,7 +65,15 @@ int getFilledBinsCount(vector<vector<int>>& bins) {
     return filledBins;
 }
 
-void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& currentBestSolution) {
+int recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& currentBestSolution) {
+    //Check time constraint
+    duration<double> runtime = duration_cast<duration<double>>(high_resolution_clock::now() - startTime);
+
+    if (runtime.count() >= (timeLimit*60))
+    {
+        return 1;
+    }
+
     // Checks if last item reached, i.e. solution found
     if (currentPosition >= in.items.size()) { 
         int filledBins = getFilledBinsCount(bins);
@@ -67,15 +81,15 @@ void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& c
         ////////////////
         // TEST STUFF //
         ////////////////
-        cout << "Solution found! " << filledBins << " bins filled." << endl;
-        printVector(bins);
+        //cout << "Solution found! " << filledBins << " bins filled." << endl;
+        //printVector(bins);
         ////////////////
 
         // If current solution is best found so far, save it
         if (filledBins < currentBestSolution) {
             currentBestSolution = filledBins;
         }
-        return;
+        return 0;
     }
     // Iterate over bins
     int currentItem = in.items[currentPosition];
@@ -87,11 +101,12 @@ void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& c
             bin.pop_back();
         }
     }
+    return 0;
 }
 
 // bruteForce : BPP instance  -> int solution
 // Returns minimum number of bins with capacity k needed to fit all items
-int bruteForce(instance in) {
+int bruteForce(instance in, int &limit) {
     // Vector of bins
     vector<vector<int>> bins;
 
@@ -106,7 +121,7 @@ int bruteForce(instance in) {
         bins.push_back(vector<int>());    
 
     // Call recurse function on instance
-    recurse(in, 0, bins, currentBestSolution);
+    limit = recurse(in, 0, bins, currentBestSolution);
 
     return currentBestSolution;
 }
@@ -170,12 +185,24 @@ int main() {
     ////////////////
     // TEST STUFF //
     ////////////////
-    int testSolution = bruteForce(instances[0]);
-    cout << endl << "Solution for instance 0: " << testSolution << endl << endl;
+    int testSolution;
+    int timedOut;
+    startTime = high_resolution_clock::now();
+    for (int i = 0; i < numTestInstances; i++)
+    {
+        timedOut = 0;
+        testSolution = bruteForce(instances[i], timedOut);
+        if (timedOut == 1)
+        {
+            cout << "Benchmark reached time limit of " << timeLimit << " minutes." << endl;
+            break;
+        }
+        cout << endl << "Best solution found for instance " << i << " : " << testSolution  << endl;
+    }
 
     // Print instances vector
-    cout << "Instances vector: " << endl;
-    printInstancesVector(instances);
+    //cout << "Instances vector: " << endl;
+    //printInstancesVector(instances);
     ////////////////
 
 

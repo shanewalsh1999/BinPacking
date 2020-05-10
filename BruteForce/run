@@ -1,3 +1,3 @@
 #!/bin/csh
-g++ -std=c++11 BruteForce.cpp -o BruteForce
-./BruteForce
+g++ -std=c++11 bruteForceTester.cpp -o bruteForceTester
+./bruteForceTester

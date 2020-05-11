@@ -11,7 +11,7 @@ using namespace std::chrono;
 
 // Work in progress. 
 
-#define numTestInstances 3
+#define numTestInstances 100
 #define timeLimit 1
 
 high_resolution_clock::time_point startTime;
@@ -189,6 +189,7 @@ int main() {
     // TEST STUFF //
     ////////////////
     int testSolution, timedOut, totalInstances = 0;
+    duration<double> timeToComplete;
     for (int i = 0; i < numTestInstances; i++)
     {
         timedOut = 0;
@@ -199,6 +200,8 @@ int main() {
         }
         else
         {
+            timeToComplete = duration_cast<duration<double>>(high_resolution_clock::now() - startTime);
+            cout << "Instance " << i << " took " << timeToComplete.count() << " seconds to complete." << endl;
             totalInstances++;
         }
         cout << "Best solution found for instance " << i << " : " << testSolution  << endl;

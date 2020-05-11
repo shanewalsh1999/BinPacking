@@ -1,0 +1,267 @@
+Instance 0 took 7.4925e-05 seconds to complete.
+Best solution found for instance 0 : 1
+Instance 1 took 5.0049e-05 seconds to complete.
+Best solution found for instance 1 : 2
+Instance 2 took 3.0168e-05 seconds to complete.
+Best solution found for instance 2 : 2
+Instance 3 took 2.0236e-05 seconds to complete.
+Best solution found for instance 3 : 3
+Instance 4 took 3.8953e-05 seconds to complete.
+Best solution found for instance 4 : 2
+Instance 5 took 3.8715e-05 seconds to complete.
+Best solution found for instance 5 : 2
+Instance 6 took 0.000419375 seconds to complete.
+Best solution found for instance 6 : 2
+Instance 7 took 0.000244643 seconds to complete.
+Best solution found for instance 7 : 2
+Instance 8 took 8.1323e-05 seconds to complete.
+Best solution found for instance 8 : 4
+Instance 9 took 0.000293676 seconds to complete.
+Best solution found for instance 9 : 2
+Instance 10 took 0.000283908 seconds to complete.
+Best solution found for instance 10 : 2
+Instance 11 took 0.000283171 seconds to complete.
+Best solution found for instance 11 : 2
+Instance 12 took 0.00407749 seconds to complete.
+Best solution found for instance 12 : 2
+Instance 13 took 0.00208793 seconds to complete.
+Best solution found for instance 13 : 3
+Instance 14 took 0.00139041 seconds to complete.
+Best solution found for instance 14 : 4
+Instance 15 took 0.00377562 seconds to complete.
+Best solution found for instance 15 : 3
+Instance 16 took 0.00156104 seconds to complete.
+Best solution found for instance 16 : 3
+Instance 17 took 0.00197356 seconds to complete.
+Best solution found for instance 17 : 3
+Instance 18 took 5.4678e-05 seconds to complete.
+Best solution found for instance 18 : 1
+Instance 19 took 5.4151e-05 seconds to complete.
+Best solution found for instance 19 : 1
+Instance 20 took 0.0847151 seconds to complete.
+Best solution found for instance 20 : 2
+Instance 21 took 0.0107664 seconds to complete.
+Best solution found for instance 21 : 5
+Instance 22 took 0.0261511 seconds to complete.
+Best solution found for instance 22 : 4
+Instance 23 took 0.0383092 seconds to complete.
+Best solution found for instance 23 : 3
+Instance 24 took 0.0164205 seconds to complete.
+Best solution found for instance 24 : 4
+Instance 25 took 0.0409128 seconds to complete.
+Best solution found for instance 25 : 3
+Instance 26 took 0.864808 seconds to complete.
+Best solution found for instance 26 : 3
+Instance 27 took 0.321698 seconds to complete.
+Best solution found for instance 27 : 5
+Instance 28 took 0.446643 seconds to complete.
+Best solution found for instance 28 : 4
+Instance 29 took 0.196675 seconds to complete.
+Best solution found for instance 29 : 5
+Instance 30 took 0.516021 seconds to complete.
+Best solution found for instance 30 : 4
+
+Instance 31 reached time limit of 1 minutes.
+Best solution found for instance 31 : 3
+
+Instance 32 reached time limit of 1 minutes.
+Best solution found for instance 32 : 4
+
+Instance 33 reached time limit of 1 minutes.
+Best solution found for instance 33 : 6
+
+Instance 34 reached time limit of 1 minutes.
+Best solution found for instance 34 : 6
+
+Instance 35 reached time limit of 1 minutes.
+Best solution found for instance 35 : 4
+
+Instance 36 reached time limit of 1 minutes.
+Best solution found for instance 36 : 4
+
+Instance 37 reached time limit of 1 minutes.
+Best solution found for instance 37 : 6
+Instance 38 took 0.0912051 seconds to complete.
+Best solution found for instance 38 : 2
+
+Instance 39 reached time limit of 1 minutes.
+Best solution found for instance 39 : 3
+
+Instance 40 reached time limit of 1 minutes.
+Best solution found for instance 40 : 5
+
+Instance 41 reached time limit of 1 minutes.
+Best solution found for instance 41 : 6
+
+Instance 42 reached time limit of 1 minutes.
+Best solution found for instance 42 : 6
+
+Instance 43 reached time limit of 1 minutes.
+Best solution found for instance 43 : 5
+
+Instance 44 reached time limit of 1 minutes.
+Best solution found for instance 44 : 5
+
+Instance 45 reached time limit of 1 minutes.
+Best solution found for instance 45 : 7
+
+Instance 46 reached time limit of 1 minutes.
+Best solution found for instance 46 : 8
+
+Instance 47 reached time limit of 1 minutes.
+Best solution found for instance 47 : 8
+
+Instance 48 reached time limit of 1 minutes.
+Best solution found for instance 48 : 9
+
+Instance 49 reached time limit of 1 minutes.
+Best solution found for instance 49 : 8
+
+Instance 50 reached time limit of 1 minutes.
+Best solution found for instance 50 : 8
+
+Instance 51 reached time limit of 1 minutes.
+Best solution found for instance 51 : 7
+
+Instance 52 reached time limit of 1 minutes.
+Best solution found for instance 52 : 10
+
+Instance 53 reached time limit of 1 minutes.
+Best solution found for instance 53 : 10
+
+Instance 54 reached time limit of 1 minutes.
+Best solution found for instance 54 : 11
+
+Instance 55 reached time limit of 1 minutes.
+Best solution found for instance 55 : 11
+
+Instance 56 reached time limit of 1 minutes.
+Best solution found for instance 56 : 13
+
+Instance 57 reached time limit of 1 minutes.
+Best solution found for instance 57 : 16
+
+Instance 58 reached time limit of 1 minutes.
+Best solution found for instance 58 : 4
+
+Instance 59 reached time limit of 1 minutes.
+Best solution found for instance 59 : 5
+
+Instance 60 reached time limit of 1 minutes.
+Best solution found for instance 60 : 14
+
+Instance 61 reached time limit of 1 minutes.
+Best solution found for instance 61 : 12
+
+Instance 62 reached time limit of 1 minutes.
+Best solution found for instance 62 : 14
+
+Instance 63 reached time limit of 1 minutes.
+Best solution found for instance 63 : 16
+
+Instance 64 reached time limit of 1 minutes.
+Best solution found for instance 64 : 20
+
+Instance 65 reached time limit of 1 minutes.
+Best solution found for instance 65 : 13
+
+Instance 66 reached time limit of 1 minutes.
+Best solution found for instance 66 : 15
+
+Instance 67 reached time limit of 1 minutes.
+Best solution found for instance 67 : 18
+
+Instance 68 reached time limit of 1 minutes.
+Best solution found for instance 68 : 17
+
+Instance 69 reached time limit of 1 minutes.
+Best solution found for instance 69 : 24
+
+Instance 70 reached time limit of 1 minutes.
+Best solution found for instance 70 : 18
+
+Instance 71 reached time limit of 1 minutes.
+Best solution found for instance 71 : 22
+
+Instance 72 reached time limit of 1 minutes.
+Best solution found for instance 72 : 19
+
+Instance 73 reached time limit of 1 minutes.
+Best solution found for instance 73 : 19
+
+Instance 74 reached time limit of 1 minutes.
+Best solution found for instance 74 : 26
+
+Instance 75 reached time limit of 1 minutes.
+Best solution found for instance 75 : 22
+
+Instance 76 reached time limit of 1 minutes.
+Best solution found for instance 76 : 26
+
+Instance 77 reached time limit of 1 minutes.
+Best solution found for instance 77 : 21
+Instance 78 took 3.06e-06 seconds to complete.
+Best solution found for instance 78 : 21
+Instance 79 took 3.404e-06 seconds to complete.
+Best solution found for instance 79 : 27
+
+Instance 80 reached time limit of 1 minutes.
+Best solution found for instance 80 : 23
+
+Instance 81 reached time limit of 1 minutes.
+Best solution found for instance 81 : 29
+
+Instance 82 reached time limit of 1 minutes.
+Best solution found for instance 82 : 33
+
+Instance 83 reached time limit of 1 minutes.
+Best solution found for instance 83 : 34
+
+Instance 84 reached time limit of 1 minutes.
+Best solution found for instance 84 : 24
+
+Instance 85 reached time limit of 1 minutes.
+Best solution found for instance 85 : 26
+
+Instance 86 reached time limit of 1 minutes.
+Best solution found for instance 86 : 27
+
+Instance 87 reached time limit of 1 minutes.
+Best solution found for instance 87 : 25
+
+Instance 88 reached time limit of 1 minutes.
+Best solution found for instance 88 : 29
+
+Instance 89 reached time limit of 1 minutes.
+Best solution found for instance 89 : 26
+
+Instance 90 reached time limit of 1 minutes.
+Best solution found for instance 90 : 50
+
+Instance 91 reached time limit of 1 minutes.
+Best solution found for instance 91 : 51
+
+Instance 92 reached time limit of 1 minutes.
+Best solution found for instance 92 : 52
+
+Instance 93 reached time limit of 1 minutes.
+Best solution found for instance 93 : 52
+
+Instance 94 reached time limit of 1 minutes.
+Best solution found for instance 94 : 52
+
+Instance 95 reached time limit of 1 minutes.
+Best solution found for instance 95 : 51
+
+Instance 96 reached time limit of 1 minutes.
+Best solution found for instance 96 : 52
+
+Instance 97 reached time limit of 1 minutes.
+Best solution found for instance 97 : 54
+
+Instance 98 reached time limit of 1 minutes.
+Best solution found for instance 98 : 20
+
+Instance 99 reached time limit of 1 minutes.
+Best solution found for instance 99 : 30
+Found an optimal solution for 34 out of 100 instances.

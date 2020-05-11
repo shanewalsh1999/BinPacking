@@ -1,0 +1,10 @@
+'largetripletsBPP79'
+       2
+      50
+      90         7
+       5         14
+'largetripletsBPP80'
+       2
+      50
+      90         9
+       5         18

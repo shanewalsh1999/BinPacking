@@ -1,0 +1,10 @@
+'hugetripletsBPP99'
+       2
+      150
+      140        20
+       5         40
+'hugetripletsBPP100'
+       2
+      150
+      140        30
+       5         60

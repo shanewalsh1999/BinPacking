@@ -1,0 +1,10 @@
+'mediumtripletsBPP59'
+       2
+      50
+      40         4
+       5         8
+'mediumtripletsBPP60'
+       2
+      50
+      40         5
+       5         10

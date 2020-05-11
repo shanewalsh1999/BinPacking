@@ -1,0 +1,122 @@
+'tinyuniformBPP1'
+       3
+      10
+       6         1
+       2         1
+       1         1
+'tinyuniformBPP2'
+       2
+      10
+       5         2
+       1         1
+'tinyuniformBPP3'
+       3
+      10
+      10         1
+       9         1
+       1         1
+'tinyuniformBPP4'
+       3
+      10
+       8         1
+       7         1
+       5         1
+'tinyuniformBPP5'
+       3
+      10
+       8         1
+       7         1
+       1         1
+'tinyuniformBPP6'
+       3
+      10
+       7         1
+       4         1
+       3         1
+'tinyuniformBPP7'
+       4
+      10
+       6         1
+       5         1
+       2         1
+       1         1
+'tinyuniformBPP8'
+       3
+      10
+      10         1
+       5         1
+       1         2
+'tinyuniformBPP9'
+       4
+      10
+       9         1
+       8         1
+       7         1
+       5         1
+'tinyuniformBPP10'
+       4
+      10
+       8         1
+       7         1
+       3         1
+       1         1
+'tinyuniformBPP11'
+       4
+      10
+       7         1
+       5         1
+       4         1
+       3         1
+'tinyuniformBPP12'
+       4
+      10
+       8         1
+       6         1
+       4         1
+       2         1
+'tinyuniformBPP13'
+       4
+      10
+       6         1
+       5         2
+       2         1
+       1         1
+'tinyuniformBPP14'
+       4
+      10
+      10         1
+       9         1
+       7         1
+       1         2
+'tinyuniformBPP15'
+       4
+      10
+       8         2
+       7         1
+       5         1
+       1         1
+'tinyuniformBPP16'
+       4
+      10
+       7         1
+       5         1
+       4         1
+       3         2
+'tinyuniformBPP17'
+       5
+      10
+      10         1
+       8         1
+       6         1
+       4         1
+       2         1
+'tinyuniformBPP18'
+       4
+      10
+       8         1
+       6         2
+       4         1
+       3         1
+
+
+

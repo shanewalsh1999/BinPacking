@@ -22,6 +22,7 @@ struct instance {
     int uniqueWeights;
     int capacity;
     vector<int> items;
+    bool completed;
 };
 
 // printVector : vector<vector<T>>
@@ -69,7 +70,7 @@ int recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& cu
     //Check time constraint
     duration<double> runtime = duration_cast<duration<double>>(high_resolution_clock::now() - startTime);
 
-    if (runtime.count() >= (timeLimit*10))
+    if (runtime.count() >= (timeLimit*60))
     {
         return 1;
     }
@@ -122,6 +123,7 @@ int bruteForce(instance in, int &limit) {
         bins.push_back(vector<int>());    
 
     // Call recurse function on instance
+    startTime = high_resolution_clock::now();
     limit = recurse(in, 0, bins, currentBestSolution);
 
     return currentBestSolution;
@@ -178,6 +180,7 @@ int main() {
             for (int k = 0; k < numOfOccurances; k++)
                 dummy.items.push_back(weight);
         }
+        dummy.completed = true;
         // Push dummy instance to vector of instances
         instances.push_back(dummy);
     }
@@ -186,18 +189,19 @@ int main() {
     // TEST STUFF //
     ////////////////
     int testSolution, timedOut, totalInstances = 0;
-    startTime = high_resolution_clock::now();
     for (int i = 0; i < numTestInstances; i++)
     {
         timedOut = 0;
         testSolution = bruteForce(instances[i], timedOut);
         if (timedOut == 1)
         {
-            cout << endl << "Benchmark reached time limit of " << timeLimit << " minutes." << endl;
-            break;
+            cout << endl << "Instance " << i << " reached time limit of " << timeLimit << " minutes." << endl;
         }
-        totalInstances++;
-        cout << endl << "Best solution found for instance " << i << " : " << testSolution  << endl;
+        else
+        {
+            totalInstances++;
+        }
+        cout << "Best solution found for instance " << i << " : " << testSolution  << endl;
     }
     cout << "Found an optimal solution for " << totalInstances << " out of 100 instances." << endl;
 

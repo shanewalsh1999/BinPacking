@@ -1,0 +1,8 @@
+'tinytripletsBPP19'
+       1
+      10
+       3	3
+'tinytripletsBPP20'
+       1
+      10
+       3	3

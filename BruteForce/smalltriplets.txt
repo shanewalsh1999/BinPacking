@@ -1,0 +1,10 @@
+'smalltripletsBPP39'
+       2
+      25
+      15	2
+       5	4
+'smalltripletsBPP40'
+       2
+      25
+      15	3
+       5	6

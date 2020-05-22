@@ -19,8 +19,8 @@ void recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& c
         ////////////////
         // TEST STUFF //
         ////////////////
-        // cout << "Solution found! " << filledBins << " bins filled." << endl;
-        // printVector(bins);
+        cout << "Solution found! " << filledBins << " bins filled." << endl;
+        printVector(bins);
         ////////////////
 
         // If current solution is best found so far, save it

@@ -8,9 +8,6 @@ using namespace std;
 
 #define numTestInstances 100
 
-// Work in progress. Still need to swap out brute force funtion for First-Fit
-// and write results to file
-
 // Structure with data of BPP test instance
 struct instance {
     string name;
@@ -21,10 +18,7 @@ struct instance {
 
 // Algorithms
 #include "helpers.cpp"
-#include "bruteForce.cpp"
-
-//int firstFit() {
-    
+#include "firstFit.cpp"
 
 int main() {
     // Initialize input stream
@@ -84,12 +78,14 @@ int main() {
     ////////////////
     // TEST STUFF //
     ////////////////
-    // int testSolution = firstFit(instances[0]);
-    // cout << endl << "Solution for instance 1: " << testSolution << endl << endl;
+    for (int i = 0; i < 100; i++) {
+        int testSolution = firstFit(instances[i]);
+        cout << "First-Fit solution for instance " << i + 1 << ": " << testSolution << endl;
+    }
 
     // Print instances vector
-    cout << "Instances vector: " << endl;
-    printInstancesVector(instances);
+    // cout << "Instances vector: " << endl;
+    // printInstancesVector(instances);
     ////////////////
 
 

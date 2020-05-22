@@ -23,6 +23,9 @@ struct instance {
 #include "helpers.cpp"
 #include "bruteForce.cpp"
 
+//int firstFit() {
+    
+
 int main() {
     // Initialize input stream
     ifstream inf;
@@ -81,12 +84,12 @@ int main() {
     ////////////////
     // TEST STUFF //
     ////////////////
-    int testSolution = firstFit(instances[0]);
-    cout << endl << "Solution for instance 1: " << testSolution << endl << endl;
+    // int testSolution = firstFit(instances[0]);
+    // cout << endl << "Solution for instance 1: " << testSolution << endl << endl;
 
     // Print instances vector
-    // cout << "Instances vector: " << endl;
-    // printInstancesVector(instances);
+    cout << "Instances vector: " << endl;
+    printInstancesVector(instances);
     ////////////////
 
 

@@ -1155,12 +1155,12 @@
        2         1
 'largetripletsBPP79'
        2
-      50
+     100
       90         7
        5         14
 'largetripletsBPP80'
        2
-      50
+     100
       90         9
        5         18
 'hugeuniformBPP81'

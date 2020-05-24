@@ -76,7 +76,7 @@ int main() {
     }
 
     // Apply algorithm to instances
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < numTestInstances; i++) {
         int testSolution = firstFit(instances[i]);
         cout << "First-Fit solution for instance " << i + 1 << ": " << testSolution << endl;
     }

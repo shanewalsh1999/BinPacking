@@ -21,8 +21,9 @@ struct instance {
 #include "firstFit.cpp"
 
 int main() {
-    // Initialize input stream
+    // Initialize input and output stream
     ifstream inf;
+    ofstream outf;
 
     // Vector of test instances
     vector<instance> instances;
@@ -34,10 +35,13 @@ int main() {
         exit(1);
     }
 
+    // Open output file
+    outf.open("output.csv");
+
     // Activate the exception handling of input stream
     inf.exceptions(std::ifstream::failbit | std::ifstream::badbit);
 
-    // Begin loop to read in 100 test instances
+    // Begin loop to read in test instances
     for (int i = 0; i < numTestInstances; i++) {
         instance dummy;
         int weight, numOfOccurances;
@@ -75,10 +79,18 @@ int main() {
         instances.push_back(dummy);
     }
 
+    // Output file header
+    outf << "instance, First-Fit solution" << endl;
+    
     // Apply algorithm to instances
     for (int i = 0; i < numTestInstances; i++) {
         int testSolution = firstFit(instances[i]);
+
+        // Print solution to cout
         cout << "First-Fit solution for instance " << i + 1 << ": " << testSolution << endl;
+        
+        // Print solution to output file
+        outf << i + 1 << ", " << testSolution << endl;
     }
 
     ////////////////
@@ -90,8 +102,9 @@ int main() {
     ////////////////
 
 
-    // Close input file
+    // Close input and output files
     inf.close();
+    outf.close();
 
     return 0;
 }

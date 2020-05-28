@@ -12,7 +12,7 @@ using namespace std::chrono;
 // Work in progress. 
 
 #define numTestInstances 100
-#define timeLimit 1
+#define timeLimit 10
 
 high_resolution_clock::time_point startTime;
 
@@ -82,8 +82,8 @@ int recurse(instance in, int currentPosition, vector<vector<int>>& bins, int& cu
         ////////////////
         // TEST STUFF //
         ////////////////
-        //cout << "Solution found! " << filledBins << " bins filled." << endl;
-        //printVector(bins);
+        // cout << "Solution found! " << filledBins << " bins filled." << endl;
+        // printVector(bins);
         ////////////////
 
         // If current solution is best found so far, save it
@@ -190,7 +190,7 @@ int main() {
     ////////////////
     int testSolution, timedOut, totalInstances = 0;
     duration<double> timeToComplete;
-    for (int i = 0; i < numTestInstances; i++)
+    for (int i = 0; i < 2; i++)
     {
         timedOut = 0;
         testSolution = bruteForce(instances[i], timedOut);

@@ -16,10 +16,6 @@ struct instance {
     vector<int> items;
 };
 
-// Algorithms
-#include "helpers.cpp"
-#include "firstFit.cpp"
-
 int main() {
     // Initialize input and output stream
     ifstream inf;
@@ -34,9 +30,6 @@ int main() {
         cerr << "Error: Could not open input file\n";
         exit(1);
     }
-
-    // Open output file
-    outf.open("output.csv");
 
     // Activate the exception handling of input stream
     inf.exceptions(std::ifstream::failbit | std::ifstream::badbit);
@@ -79,32 +72,34 @@ int main() {
         instances.push_back(dummy);
     }
 
-    // Output file header
-    outf << "instance, First-Fit solution" << endl;
-    
-    // Apply algorithm to instances
+    // Generate data files for instances
     for (int i = 0; i < numTestInstances; i++) {
-        int testSolution = firstFit(instances[i]);
+        // dummy: instance to focus on for this iteration
+        instance dummy = instances[i];
 
-        // Print solution to cout
-        cout << "First-Fit solution for instance " << i + 1 << ": " << testSolution << endl;
-        
-        // Print solution to output file
-        outf << i + 1 << ", " << testSolution << endl;
+        // Open output file for instance
+        outf.open("./AMPLInstances/instance" + to_string(i + 1) + ".data");
+
+        // n : Number of items in instance
+        int n = dummy.items.size();
+
+        // c : Capacity of instance
+        int c = dummy.capacity;
+
+        // Print params to output file
+        outf << "param n := " << n << ";" << endl;
+        outf << "param c := " << c << ";" << endl;
+        outf << "param w := " << endl;
+        for (int j = 0; j < n; j++) 
+            outf << j + 1 << " " << dummy.items[j] << endl;
+        outf << ";";
+
+        // Close output file for instance
+        outf.close();   
     }
 
-    ////////////////
-    // TEST STUFF //
-    ////////////////
-    // Print instances vector
-    cout << "Instances vector: " << endl;
-    printInstancesVector(instances);
-    ////////////////
-
-
-    // Close input and output files
+    // Close input file
     inf.close();
-    outf.close();
 
     return 0;
 }

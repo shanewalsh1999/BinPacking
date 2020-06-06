@@ -1,0 +1,7 @@
+param n := 3;
+param c := 10;
+param w := 
+1 6
+2 2
+3 1
+;

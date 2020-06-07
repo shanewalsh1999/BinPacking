@@ -1,0 +1,428 @@
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 1
+0 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+4 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+4 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+1 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+5 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+5 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+8 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+4 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+1 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+7 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+7 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+7 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+10 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+7 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+7 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 1
+0 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 1
+0 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+23 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+11 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+15 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+10 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+16 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+21 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+11 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+10 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+13 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+18 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+14 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 6
+24 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 6
+19 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+17 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+20 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 6
+18 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 2
+9 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 3
+18 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+26 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 6
+26 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 6
+28 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+21 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+32 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 7
+27 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 8
+201 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 8
+42 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 9
+35 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 8
+37 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 8
+29 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 7
+47 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 10
+187 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 10
+61 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 11
+249 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 11
+146 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 13
+168 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 16
+213 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 4
+32 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 5
+37 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 14
+135940 MIP simplex iterations
+11347 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 12
+108 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 14
+205 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 16
+26382 MIP simplex iterations
+1796 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 20
+413 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 13
+65 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 15
+118 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 18
+122747 MIP simplex iterations
+9193 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 17
+95 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 24
+4600 MIP simplex iterations
+395 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 18
+308 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 22
+2650 MIP simplex iterations
+251 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 19
+21072 MIP simplex iterations
+633 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 19
+378 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 26
+6332 MIP simplex iterations
+191 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 22
+506 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 26
+49109 MIP simplex iterations
+5892 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: time limit with integer solution; objective 21
+13209931 MIP simplex iterations
+287716 branch-and-bound nodes
+absmipgap = 1, relmipgap = 0.047619
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 7
+82 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 9
+91 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 23
+152 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 29
+862 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 33
+135538 MIP simplex iterations
+7984 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 34
+55131 MIP simplex iterations
+4430 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 24
+753 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 26
+59473 MIP simplex iterations
+2408 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 27
+687 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 25
+624 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 29
+873 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: time limit with integer solution; objective 26
+7513871 MIP simplex iterations
+305415 branch-and-bound nodes
+absmipgap = 1, relmipgap = 0.0384615
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 48
+796205 MIP simplex iterations
+60900 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 49
+25554 MIP simplex iterations
+433 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: time limit with integer solution; objective 49
+1887872 MIP simplex iterations
+58648 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 50
+1008043 MIP simplex iterations
+60444 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 48
+829943 MIP simplex iterations
+66370 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: time limit with integer solution; objective 49
+2858560 MIP simplex iterations
+64182 branch-and-bound nodes
+absmipgap = 1.41333, relmipgap = 0.0288435
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: optimal integer solution; objective 49
+757575 MIP simplex iterations
+61155 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+
+Performing restart 1
+CPLEX 12.10.0.0: time limit with integer solution; objective 51
+1137544 MIP simplex iterations
+59149 branch-and-bound nodes
+absmipgap = 1.14667, relmipgap = 0.0224837
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 20
+235 MIP simplex iterations
+0 branch-and-bound nodes
+CPLEX 12.10.0.0: time 60
+CPLEX 12.10.0.0: optimal integer solution; objective 30
+322 MIP simplex iterations
+0 branch-and-bound nodes

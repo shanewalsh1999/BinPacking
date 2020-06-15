@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define numTestInstances 100
+#define numTestInstances 20
 
 // Structure with data of BPP test instance
 struct instance {
@@ -25,7 +25,7 @@ int main() {
     vector<instance> instances;
 
     // Open input file
-    inf.open("testInstances.txt");
+    inf.open("additionalTestInstances.txt");
     if (inf.fail()) {
         cerr << "Error: Could not open input file\n";
         exit(1);
@@ -78,7 +78,7 @@ int main() {
         instance dummy = instances[i];
 
         // Open output file for instance
-        outf.open("./AMPLInstances/instance" + to_string(i + 1) + ".data");
+        outf.open("./AMPLInstances/instance" + to_string(i + 101) + ".data");
 
         // n : Number of items in instance
         int n = dummy.items.size();

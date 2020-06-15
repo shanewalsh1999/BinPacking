@@ -4,9 +4,8 @@
 #include <fstream>
 #include <numeric>
 
-using namespace std;
-
-#define numTestInstances 100
+using namespace std; 
+#define numTestInstances 20
 
 // Structure with data of BPP test instance
 struct instance {
@@ -29,14 +28,14 @@ int main() {
     vector<instance> instances;
 
     // Open input file
-    inf.open("testInstances.txt");
+    inf.open("additionalTestInstances.txt");
     if (inf.fail()) {
         cerr << "Error: Could not open input file\n";
         exit(1);
     }
 
     // Open output file
-    outf.open("output.csv");
+    outf.open("additional_output.csv");
 
     // Activate the exception handling of input stream
     inf.exceptions(std::ifstream::failbit | std::ifstream::badbit);
@@ -97,8 +96,8 @@ int main() {
     // TEST STUFF //
     ////////////////
     // Print instances vector
-    cout << "Instances vector: " << endl;
-    printInstancesVector(instances);
+    // cout << "Instances vector: " << endl;
+    // printInstancesVector(instances);
     ////////////////
 
 

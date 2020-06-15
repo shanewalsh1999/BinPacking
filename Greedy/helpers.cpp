@@ -24,7 +24,8 @@ void printInstancesVector(vector<instance> instances) {
             for(auto it = begin(instances[i].items); it != end(instances[i].items); ++it) {
             std::cout << *it << " ";
             }
-        cout << "> " << endl << endl;
+        cout << "> " << endl;
+        cout << "n: " << instances[i].items.size() << endl << endl;
     }
 }
 

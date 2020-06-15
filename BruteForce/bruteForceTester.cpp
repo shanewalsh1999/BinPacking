@@ -9,10 +9,9 @@
 using namespace std;
 using namespace std::chrono;
 
-// Work in progress. 
-
-#define numTestInstances 100
-#define timeLimit 10
+// Work in progress.  
+#define numTestInstances 20
+#define timeLimit 1
 
 high_resolution_clock::time_point startTime;
 
@@ -138,7 +137,7 @@ int main() {
     vector<instance> instances;
 
     // Open input file
-    inf.open("testInstances.txt");
+    inf.open("additionalTestInstances.txt");
     if (inf.fail()) {
         cerr << "Error: Could not open input file\n";
         exit(1);
@@ -190,18 +189,18 @@ int main() {
     ////////////////
     int testSolution, timedOut, totalInstances = 0;
     duration<double> timeToComplete;
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < numTestInstances; i++)
     {
         timedOut = 0;
         testSolution = bruteForce(instances[i], timedOut);
         if (timedOut == 1)
         {
-            cout << endl << "Instance " << i << " reached time limit of " << timeLimit << " minutes." << endl;
+            cout << endl << "Instance " << i + 1 << " reached time limit of " << timeLimit << " minutes." << endl;
         }
         else
         {
             timeToComplete = duration_cast<duration<double>>(high_resolution_clock::now() - startTime);
-            cout << "Instance " << i << " took " << timeToComplete.count() << " seconds to complete." << endl;
+            cout << "Instance " << i + 1 << " took " << timeToComplete.count() << " seconds to complete." << endl;
             totalInstances++;
         }
         cout << "Best solution found for instance " << i << " : " << testSolution  << endl;

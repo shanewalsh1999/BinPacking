@@ -1,0 +1,3 @@
+#!/bin/csh
+g++ -std=c++11 generateGeneticInstances.cpp -o Main
+./Main
